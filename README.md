@@ -1,9 +1,7 @@
-# Oerdek Landing Page
-
 ![Landing Page](/docs/landingpage.png?raw=true "Landing Page Preview")
 
 This is the source code of my landing page. [It is in productive use here](https://oerdek.com).
-[More information about this project can be found here](https://nextjs.org/).
+[More information about this project can be found here](https://enesordek.com/2022/05/01/projekt-mit-nextjs).
 
 ## Development
 
