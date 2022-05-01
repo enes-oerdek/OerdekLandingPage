@@ -4,14 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build-data": "node lib/content.js",
+    "build": "npm run build-data && next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "12.1.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.6"
   },
   "devDependencies": {
     "eslint": "8.14.0",
