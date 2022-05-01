@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
-//import CategoriesContent from '../lib/categories'
 import Content from '../lib/content.json'
 import FooterContent from '../lib/footer.json'
 import Categories from '../components/categories'
